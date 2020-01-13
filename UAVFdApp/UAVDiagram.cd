@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="UAVProject.MainWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAABABAAAAAAQAAABAACAQgCAAAAAAAgAAAQBAAgAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="federate" />
+      <Field Name="uav" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="StationObjects" />
+      <Field Name="VictimObjects" />
+      <Field Name="UAVObjects" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UAVProject.CUAVFdApp" Collapsed="true">
+    <Position X="11.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SKwAgUgAEIQBoCCABCAFAgUUAMAAkRAYAGEoQAAwAEA=</HashCode>
+      <FileName>UAVFdApp.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Som" />
+      <Field Name="window" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="UAVProject.Models.Station" Collapsed="true">
+    <Position X="3" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Station.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAVProject.Models.UAV" Collapsed="true">
+    <Position X="3" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIBAAAAAAgQAAgAAAAAAABAAAAAAAQAAAAQAAQAAA=</HashCode>
+      <FileName>Models\UAV.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAVProject.Models.Victim" Collapsed="true">
+    <Position X="3" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAACAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Victim.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAVProject.Som.FederateSom" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAEQAAIAAAAQAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Som\FederateSom.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="StationCommsIC" />
+      <Field Name="StationOC" />
+      <Field Name="UAVCommsIC" />
+      <Field Name="VictimContactIC" />
+      <Field Name="UAVOC" />
+      <Field Name="VictimOC" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="UAVProject.Som.CStationCommsIC" Collapsed="true">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Som\StationCommsIC.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAVProject.Som.CStationHlaObject" Collapsed="true">
+    <Position X="5.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Som\StationHlaObject.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="station" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="UAVProject.Som.CStationOC" Collapsed="true">
+    <Position X="5.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Som\StationOC.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAVProject.Som.CUAVCommsIC" Collapsed="true">
+    <Position X="5.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAgAAAAAAACAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Som\UAVCommsIC.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAVProject.Som.CUAVHlaObject" Collapsed="true">
+    <Position X="5.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Som\UAVHlaObject.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="uav" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="UAVProject.Som.CUAVOC" Collapsed="true">
+    <Position X="5.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIBAAAAAAgQAAgAAAAAAABAAAAAAAQAAAAQAAQAAA=</HashCode>
+      <FileName>Som\UAVOC.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAVProject.Som.CVictimContactIC" Collapsed="true">
+    <Position X="5.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Som\VictimContactIC.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UAVProject.Som.CVictimHlaObject" Collapsed="true">
+    <Position X="5.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Som\VictimHlaObject.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="victim" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="UAVProject.Som.CVictimOC" Collapsed="true">
+    <Position X="5.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAACAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Som\VictimOC.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="UAVProject.Som.Coordinate" Collapsed="true">
+    <Position X="17.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Som\Datatype.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="UAVProject.Som.VictimStatus" Collapsed="true">
+    <Position X="17.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAASAAAAAAAAAAAAAAAAAAAAAAAgAAAAQ=</HashCode>
+      <FileName>Som\Datatype.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

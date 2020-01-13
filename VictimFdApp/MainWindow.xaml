@@ -1,0 +1,21 @@
+﻿<Window x:Class="UAVProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UAVProject"
+        mc:Ignorable="d"
+        Title="Victim Federate" Height="658" Width="1052">
+    <Grid>
+        <Label Content="UAV Simulation Federation - Victim Federate" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="VictimOutputBox"  VerticalScrollBarVisibility="Auto"  HorizontalAlignment="Left" Margin="10,50,0,10" TextWrapping="Wrap" Text="TextBox" Width="461"/>
+        <Button x:Name="JoinButton" Content="Join" HorizontalAlignment="Left" Margin="632,168,0,0" VerticalAlignment="Top" Width="120" Click="JoinButton_Click"/>
+        <Button x:Name="ExitButton" Content="Exit" HorizontalAlignment="Left" Margin="632,242,0,0" VerticalAlignment="Top" Width="120" Click="ExitButton_Click"/>
+        <TextBox x:Name="xValueBox" HorizontalAlignment="Left" Height="23" Margin="632,96,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="yValueBox" HorizontalAlignment="Left" Height="23" Margin="632,124,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="X:" HorizontalAlignment="Left" Margin="612,93,0,0" VerticalAlignment="Top"/>
+        <Label Content="Y:" HorizontalAlignment="Left" Margin="613,121,0,0" VerticalAlignment="Top"/>
+        <Button Content="Send SOS" HorizontalAlignment="Left" Margin="632,208,0,0" VerticalAlignment="Top" Width="120" Click="Button_Click" RenderTransformOrigin="0.5,0.5"/>
+
+    </Grid>
+</Window>
